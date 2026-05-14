@@ -1,20 +1,65 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🏛️ SSCASN Redesign Concept 2026
 
-# Run and deploy your AI Studio app
+![Project Status](https://img.shields.io/badge/Status-Personal_Concept-blueviolet?style=for-the-badge)
+![Tech Stack](https://img.shields.io/badge/Tech-React_19_+_Vite-61DAFB?style=for-the-badge&logo=react)
+![Styling](https://img.shields.io/badge/Styling-Tailwind_CSS_4-06B6D4?style=for-the-badge&logo=tailwindcss)
 
-This contains everything you need to run your app locally.
+> [!IMPORTANT]
+> **DISCLAIMER:** Proyek ini merupakan **Project Dummy / Concept Design** untuk eksplorasi UI/UX portal SSCASN (Sistem Seleksi Calon Aparatur Sipil Negara). Ini **BUKAN** website resmi pemerintah dan tidak terafiliasi dengan BKN (Badan Kepegawaian Negara).
 
-View your app in AI Studio: https://ai.studio/apps/74324363-24f2-48df-a269-98aa4210a0a9
+## 💡 Tentang Proyek
 
-## Run Locally
+Proyek ini lahir dari ide pribadi untuk memodernisasi tampilan portal SSCASN yang seringkali dianggap kaku. Fokus utama adalah menghadirkan pengalaman pengguna yang lebih segar, transparan, dan intuitif dengan pendekatan desain **Modern Bureaucracy**.
 
-**Prerequisites:**  Node.js
+### ✨ Fitur Utama & Keunggulan Desain
 
+- **Modern Visual Identity:** Menggunakan palet warna _Deep Royal Blue_ dan _Vibrant Amber_ untuk kesan formal namun tetap dinamis.
+- **Bento Grid Architecture:** Penyajian informasi statistik dan jadwal pendaftaran dalam layout kotak-kotak yang rapi dan mudah dipahami.
+- **Smart Formasi Search:** Antarmuka pencarian formasi yang responsif dan memudahkan calon pendaftar memfilter ribuan data.
+- **Interactive Timeline:** Visualisasi alur pendaftaran dari pembuatan akun hingga pengumuman akhir yang interaktif.
+- **Smooth Animations:** Didukung oleh `motion` (framer-motion) untuk transisi elemen yang elegan.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Tech Stack
+
+Proyek ini dibangun menggunakan teknologi terbaru untuk performa maksimal:
+
+- **Framework:** [React 19](https://react.dev/)
+- **Bundler:** [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Animations:** [Motion](https://www.framer.com/motion/)
+
+## 🚀 Cara Menjalankan Proyek (Lokal)
+
+1. **Clone repositori ini:**
+
+   ```bash
+   git clone https://github.com/rukmana4985/sscasn-dummy.git
+   cd sscasn-dummy
+   ```
+
+2. **Instal dependensi:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Jalankan server pengembangan:**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Buka di browser:**
+   Akses `http://localhost:3000` (atau port yang tertera di terminal)
+
+---
+
+## 🎨 Design Guide
+
+Detail mengenai panduan desain, warna, dan tipografi dapat dilihat pada file:  
+📄 [SSCASN_Redesign_Guide.md](./SSCASN_Redesign_Guide.md)
+
+---
+
+Developed with ❤️ as a creative exploration.
