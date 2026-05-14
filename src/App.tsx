@@ -1079,7 +1079,7 @@ function Footer() {
         </div>
 
         <div className="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] font-black tracking-[0.3em] text-white/20 uppercase">
-          <p>© 2026 BADAN KEPEGAWAIAN NEGARA. SELURUH HAK CIPTA DILINDUNGI.</p>
+          <p>© 2026 Project SSCASN Redesign by <a href="https://rukmana.vercel.app" target="_blank" rel="noopener noreferrer" className="text-secondary">@rukmana4985</a> | All rights reserved.</p>
           <div className="flex gap-10">
             <a href="#" className="hover:text-secondary transition-colors">Privacy</a>
             <a href="#" className="hover:text-secondary transition-colors">Terms</a>
