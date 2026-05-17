@@ -313,7 +313,7 @@ function Hero({ isDark }: { isDark: boolean }) {
         {/* CPNS Background Overlay (Faded) */}
         <div className="absolute inset-0 -z-20 opacity-[0.03] grayscale transition-opacity duration-1000">
           <img 
-            src="./hero_people.png" 
+            src="/hero_people.png" 
             className="w-full h-full object-cover object-top scale-110 blur-[1px]" 
             alt="Background Overlay" 
           />
@@ -366,7 +366,7 @@ function Hero({ isDark }: { isDark: boolean }) {
         <div className={`mx-auto w-full max-w-[400px] aspect-4/5 rounded-3xl overflow-hidden relative shadow-2xl border-4 ${isDark ? 'bg-slate-800 border-slate-800' : 'bg-slate-100 border-white'}`}>
           <img 
             className="w-full h-full object-cover" 
-            src="./hero_people.png" 
+            src="/hero_people.png" 
             alt="Hero SSCASN People"
           />
           <div className={`absolute inset-0 bg-linear-to-t to-transparent ${isDark ? 'from-slate-950/60' : 'from-primary/20'}`}></div>
