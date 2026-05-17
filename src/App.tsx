@@ -1136,46 +1136,7 @@ export default function App() {
         <Timeline isDark={isDark} />
         <NewsSection isDark={isDark} />
         <FAQ isDark={isDark} />
-
-        <section className="py-24 mx-auto px-4 md:px-12 lg:px-20 max-w-[1800px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <motion.div whileHover={{ y: -8 }} className={`bento-card text-center flex flex-col items-center group ${isDark ? 'bg-slate-900 border-slate-800' : 'bg-white border-slate-100 shadow-[0_24px_48px_-12px_rgba(0,0,0,0.04)]'}`}>
-            <div className={`w-20 h-20 rounded-4xl transition-all duration-500 group-hover:scale-110 group-hover:rotate-3 ${isDark ? 'bg-blue-900/30 text-blue-400' : 'bg-blue-50 text-primary'}`}>
-              <FileText className="w-10 h-10" />
-            </div>
-            <h3 className={`text-xl md:text-2xl font-black mb-4 ${isDark ? 'text-white' : 'text-primary'}`}>Ketentuan Umum</h3>
-            <p className={`text-sm md:text-base mb-10 leading-relaxed px-6 font-medium ${isDark ? 'text-slate-400' : 'text-slate-600'}`}>Pahami syarat dasar, batas usia, dan kualifikasi yang dibutuhkan sebelum mendaftar.</p>
-            <a href="#" className={`mt-auto font-black uppercase tracking-widest text-[11px] flex items-center gap-2 group py-3 px-6 rounded-full transition-all border ${isDark ? 'text-blue-400 border-blue-400/20 hover:bg-blue-400/10' : 'text-primary border-primary/10 hover:bg-primary/5'}`}>
-              Pelajari Selengkapnya 
-              <ExternalLink className="w-4 h-4 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
-            </a>
-          </motion.div>
-
-          <motion.div whileHover={{ y: -8 }} className={`bento-card text-center flex flex-col items-center group ${isDark ? 'bg-slate-900 border-slate-800' : 'bg-white border-slate-100 shadow-[0_24px_48px_-12px_rgba(0,0,0,0.04)]'}`}>
-            <div className={`w-16 h-16 md:w-20 md:h-20 rounded-4xl flex items-center justify-center mb-8 shadow-sm transition-all duration-500 group-hover:scale-110 group-hover:-rotate-3 ${isDark ? 'bg-secondary/10 text-secondary' : 'bg-secondary/10 text-secondary-dark'}`}>
-              <Download className="w-8 h-8 md:w-10 md:h-10" />
-            </div>
-            <h3 className={`text-xl md:text-2xl font-black mb-4 ${isDark ? 'text-white' : 'text-primary'}`}>Dokumen Wajib</h3>
-            <p className={`text-sm md:text-base mb-10 leading-relaxed px-6 font-medium ${isDark ? 'text-slate-400' : 'text-slate-600'}`}>Persiapkan file digital Anda sesuai format dan ukuran yang ditentukan sistem agar tidak gagal verifikasi.</p>
-            <a href="#" className={`mt-auto font-black uppercase tracking-widest text-[11px] flex items-center gap-2 group py-3 px-6 rounded-full transition-all border ${isDark ? 'text-blue-400 border-blue-400/20 hover:bg-blue-400/10' : 'text-primary border-primary/10 hover:bg-primary/5'}`}>
-              Unduh Checklist 
-              <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-            </a>
-          </motion.div>
-
-          <motion.div whileHover={{ y: -8 }} className={`bento-card text-center flex flex-col items-center group ${isDark ? 'bg-slate-900 border-slate-800' : 'bg-white border-slate-100 shadow-[0_24px_48px_-12px_rgba(0,0,0,0.04)]'}`}>
-            <div className={`w-16 h-16 md:w-20 md:h-20 rounded-4xl flex items-center justify-center mb-8 shadow-sm transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 ${isDark ? 'bg-slate-800 text-slate-300' : 'bg-slate-50 text-slate-700'}`}>
-              <Headset className="w-8 h-8 md:w-10 md:h-10" />
-            </div>
-            <h3 className={`text-xl md:text-2xl font-black mb-4 ${isDark ? 'text-white' : 'text-primary'}`}>Pusat Bantuan</h3>
-            <p className={`text-sm md:text-base mb-10 leading-relaxed px-6 font-medium ${isDark ? 'text-slate-400' : 'text-slate-600'}`}>Layanan helpdesk 24/7 dan simulasi CAT (Computer Assisted Test) untuk persiapan ujian yang matang.</p>
-            <a href="#" className={`mt-auto font-black uppercase tracking-widest text-[11px] flex items-center gap-2 group py-3 px-6 rounded-full transition-all border ${isDark ? 'text-blue-400 border-blue-400/20 hover:bg-blue-400/10' : 'text-primary border-primary/10 hover:bg-primary/5'}`}>
-              Hubungi Kami 
-              <ExternalLink className="w-4 h-4 transition-transform group-hover:-translate-y-1" />
-            </a>
-          </motion.div>
-        </section>
       </main>
-
       <Footer />
     </div>
   );
